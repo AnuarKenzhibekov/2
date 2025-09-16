@@ -1,0 +1,85 @@
+        body {
+            background-color: #1f2937;
+        }
+        .highlight {
+            font-family: "Courier New", monospace;
+            font-weight: bold;
+            color: white;
+        }
+        p {
+            color: green;
+        }
+
+        #main-heading {
+            color: crimson;
+            font-family: Georgia, serif;
+            text-decoration: underline;
+        }
+        #header, #footer { background:#1f2937; color:#fff; padding:16px; }
+        #footer {float:right}
+        #main-content{
+                    margin:16px;               
+                    border:2px  #999;                     
+                    border-radius:8px;
+                    background-color: darkgrey; 
+                    padding:16px;
+        }
+        #main-content img {
+            width: 35%;        
+            max-width: 220px;   
+            height: auto;       
+            border-radius: 8px;
+            display: block;
+        }
+
+        #main-content h3:nth-of-type(1) {         
+            font-size: 2em;                        
+            }
+
+       .float-left {
+            float: left;
+            width: 48%;
+            }
+
+        .float-right {
+            float: right;
+            width: 48%;
+            }   
+            
+        .clearfix::after { 
+            content: ""; 
+            display: block; 
+            clear: both; }
+
+        .positioning {
+            position: relative;
+         }
+        .box {
+            display: inline-block;
+            width: 240px;
+            padding: 10px;
+            margin: 8px;
+            background: #e5f2ff;
+            border: 1px solid #8cc2ff;
+            border-radius: 6px;
+        }
+        .box-static {
+            position: static;
+        }        
+        .box-relative {
+            position: relative;
+            left: 12px;
+        }    
+        .box-absolute {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            display: block;           
+            width: 260px;
+            background: #ffecec;
+            border: 1px solid #ff9e9e;
+            border-radius: 6px;
+            padding: 10px;
+}
+
+
